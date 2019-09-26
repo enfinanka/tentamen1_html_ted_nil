@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="This is a page about my tentamen">
+  <meta name="author" content="Ted Nilsson">
+  <title>tentamen1_html_ted_nil</title>
+</head>
+
+<nav>
+  <ul>
+    <li class="navlink"><a href="https://github.com">Github</a></li>
+    <li class="navlink"><a href="https://git-scm.com/docs">Git SCM</a></li>
+    <li class="navlink"><a href="https://www.w3schools.com">W3 Schools</a></li>
+  </ul>
+</nav>
+
+<body>
+  <main>
+    <h1 id="mainHeader">Ted Nilsson</h1>
+
+    <ol>
+      <li>Jane</li>
+      <li>John</li>
+      <li>Karen</li>
+      <li>Karl</li>
+      <li>Betty</li>
+      <li>Bart</li>
+    </ol>
+
+    <div id="team-table">
+      <table>
+        <tr>
+          <th>Position</th>
+          <th>Lag</th>
+          <th>Poäng</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Jägersborg</td>
+          <td>67p</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Malmö</td>
+          <td>24p</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Hammarby</td>
+          <td>22p</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="funny-element">
+    </div>
+    
+    <div id="container">
+      <img src="http://placekitten.com/300/200" alt="kitten">
+      <img src="http://placekitten.com/300/200" alt="kitten">
+      <img src="http://placekitten.com/300/200" alt="kitten">
+      <img src="http://placekitten.com/300/200" alt="kitten">
+      <img src="http://placekitten.com/300/200" alt="kitten">
+      <img src="http://placekitten.com/300/200" alt="kitten">
+      <img src="http://placekitten.com/300/200" alt="kitten">
+    </div>
+
+    <h2 class="headerMargin">SEO</h2>
+    <ol>
+      <li class="listMargin">meta name="description"</li> <!--Omdiskuterat om detta påverkar SEO-->
+      <li class="listMargin">meta name="keywords" content="HTML, CSS, JS, Skor, Osv"</li>
+      <li class="listMargin">Semantisk korrekthet exempelvis "button" istället för "div class="button" "</li>
+      <li class="listMargin">alt-tags på img element</li>
+      <li class="listMargin">Headings är viktiga för semantik och indexering av strukturen för contenten. h1:or är viktigast, h2:or är mindre viktiga osv</li>
+      <li class="listMargin">Bra länknamn, exempelvis "Ta reda på mer om JS" istället för "Klicka på mig"</li>
+      <li class="listMargin">Undvik förkortningar, bindestreck </li>
+    </ol>
+
+    <h2 class="headerMargin">SEO och nyckelord</h2>
+      <p>Nyckelorden ska ligga i en meta-tag som placeras i head elementet i HTML:en</p>
+      <p>På en helt ny sida utan redan bra ranking så får man tänka lite utanför boxen och använda sökord som kanske inte är de vanligaste.
+      Så exempelvis en hemsida om JavaScript så kanske man använder nyckelorden "Programming, JS" om det nu inte skulle vara många som
+      använder just de sökorden.</p>
+
+    <h2 class="headerMargin">Responsiv webbdesign</h2>
+      <p>Responsiv webbdesign innebär att man anpassar webbplatsen efter olika skärmstorlekar. Detta görs flitigt idag eftersom
+      en väldigt stor del av användare idag använder sig av mobiler eller surfplattor för att surfa på webben. Då måste man anpassa hemsidan
+      efter deras skärmstorlek så inte innehållet på sidan ska bli förvrängt.</p>
+      <p>Ett sätt är att använda sig utav någonting som kallas för media queries. Dessa skriver man längst ner i sin CSS eller i Ett
+      separat CSS dokument. Ett annat sätt är att använda procentuella värden när man anger exempelvis en width. Då förändras elementet
+      beroende på fönstrets storlek.</p>
+      <p>Brytpunkter stöter man in på när man använder sig av media queries. Man använder sig av det när man vill avgöra i vilka fönsterstorlekar
+      sidan ska förändras. Ett exempel på detta är " @media only screen and (max-width: 600px) {} " Då säger man att när webbplatsen är 600px och mindre
+      så ska sidan förändras på ett visst sätt beroende på vad du skriver innanför { }.</p>
+
+    <h2 class="headerMargin">Nätverk</h2>
+      <p>När du först skriver in en webbplats webbadress så skickar den först en request med ett protokoll "http" som ligger på "world wide web"
+      Denna request skickas till en webbserver som tillhör den DNS:en som säger att om webbplatsen finns så tar den innehållet på webbplatsen och skickar tillbaka det till användaren.</p>
+
+    <h2 class="headerMargin">Bootstrap</h2>
+      <p>Bootstrap är ett s.k. bibliotek av redan färdigskriven kod (CSS, JavaScript) som skaparna har gjort tillgängligt för vem som helst att använda.</p>
+      <p>En anledning till varför Bootstrap används är för att det är mycket enkelt och mer effektivt i form av tid att använda sig av Bootstrap bibliotek.
+      Där finns redan färdigskriven kod att använda som även är responsiv redan från början. Det är ett väldigt stort bibliotek av kod så man kan göra hela layouter i Bootstrap med hjälp av deras
+      12-grid system. Men man kan också bara implementera enskilda klasser från Bootstrap, exempelvis en knapp.</p>
+      <p>Det finns två olika sätt att implementera Bootstrap, det första sättet är att ladda ner det lokalt på din dator som man sedan länkar som ett vanligt CSS dokument.
+      Det andra sättet är att använda sig av deras s.k. CDN. Detta länkar man som CSS-dokument också fast då anger man deras webbserver som Bootstrap ligger på.
+      Båda har sina användningsområden. Att ladda ner det lokalt gör så att det är garanterat att bootstrap alltid är tillgängligt och online sålänge din webbserver är tillgänglig.
+      Att använda sig av deras CDN är effektivt för att det sparas i cachen och har en användare varit inne på en webbplats som använder sig av bootstrap så finns det redan cachat i webbläsaren.
+      Detta minskar saker som laddningstiden på webbplatsen</p>
+    
+    <h2 class="headerMargin">Uppgift 19: Granska koden</h2>
+    <ul>
+      <li class="listMargin">Inline-CSS när det finns ett CSS-dokument definerat. Detta skapar förvirring när man ska felsöka eller ändra kod.</li>
+      <li class="listMargin">Det finns ingen "html lang="språk" som definerar språket på antingen webbplatsen eller ett specifikt element.</li>
+      <li class="listMargin">Implementeringen av CSS:en är inkorrekt. Det finns ingen "type="text/css" i implementeringen.</li>
+      <li class="listMargin">nav:en bör vara i ett nav-element, inte i en div klass. Detta för att göra det semantiskt korrekt och därmed öka sin SEO-ranking</li>
+      <li class="listMargin">Indenteringen är lite knasig på vissa ställen. Exempelvis vid implementeringen av CSS-dokumentet och vid section delen</li>
+      <li class="listMargin">Divarna under h3:an är div:ar men bör vara paragraf. Detta för att det är en textrad. Vill man styla detta så bör man lägga till ett id eller en klass till en p-tag.</li>
+      <li class="listMargin">img-elementet är felskrivet och det finns ingen alt-tag med som hjälper till om bilden för någon anledning inte kan läsas in.</li>
+      <li class="listMargin">form-metoden get ska inte användas om det är känslig data som exempelvis i detta fallet ett lösenord. Istället använder man "Post"</li>
+      <li class="listMargin">Det finns inget "name" på input-type:n så när informationen skickas till en webbserver så anges inget namn på informationen, så det blir svårhanterligt.</li>
+      <li class="listMargin">Footern är en div och bör vara en footer tag. Även paragraferna är återigen DIV:ar</li>
+      <li class="listMargin">body har inte stängts med ett /body, inte heller html dokumentet har stängts.</li>
+    </ul>
+  </main>
+</body>
+</html>
